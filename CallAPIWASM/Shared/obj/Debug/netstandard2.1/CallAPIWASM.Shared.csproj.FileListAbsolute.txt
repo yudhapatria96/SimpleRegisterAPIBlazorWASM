@@ -1,0 +1,10 @@
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\bin\Debug\netstandard2.1\CallAPIWASM.Shared.deps.json
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\bin\Debug\netstandard2.1\CallAPIWASM.Shared.dll
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\bin\Debug\netstandard2.1\CallAPIWASM.Shared.pdb
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.csproj.AssemblyReference.cache
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.AssemblyInfoInputs.cache
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.AssemblyInfo.cs
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.csproj.CoreCompileInputs.cache
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.dll
+C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Shared\obj\Debug\netstandard2.1\CallAPIWASM.Shared.pdb

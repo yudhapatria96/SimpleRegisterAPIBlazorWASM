@@ -1,0 +1,49 @@
+﻿@page "/register"
+@using CallAPIWASM.Shared
+
+
+@inject NavigationManager navigationManager
+@inject HttpClient Http
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="name@example.com" @bind="@registerData.email">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Password</label>
+        <input type="email" class="form-control" placeholder="*****" @bind="@registerData.password">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Password Confirmation</label>
+        <input type="email" class="form-control" placeholder="******" @bind="@registerData.password_confirmation">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+        <input type="email" class="form-control"  placeholder="Name" @bind="@registerData.name">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">City</label>
+        <input type="email" class="form-control" placeholder="City" @bind="@registerData.city">
+    </div>
+
+    <div class="col-md-4">
+        <div class="form-group">
+            <input type="button" class="btn btn-primary" @onclick="@createAccount" value="Save"/>
+        </div>
+    
+    </div>
+
+<h3>@responseRegister.access_token</h3>
+    
+@code {
+    RegisterData registerData = new RegisterData();
+    RegisterResponse responseRegister = new RegisterResponse();
+    protected async Task createAccount()
+    {
+
+        using var response  = await Http.PostAsJsonAsync("https://onlineshopapi.herokuapp.com/api/auth/register", registerData);
+
+       responseRegister = await response.Content.ReadFromJsonAsync<RegisterResponse>();
+    }
+
+}

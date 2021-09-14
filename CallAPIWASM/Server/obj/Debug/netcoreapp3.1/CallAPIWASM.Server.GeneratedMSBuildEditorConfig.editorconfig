@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CallAPIWASM.Server
+build_property.ProjectDir = C:\Users\yudha.patria\source\repos\CallAPIWASM\CallAPIWASM\Server\
